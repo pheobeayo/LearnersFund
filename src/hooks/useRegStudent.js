@@ -1,7 +1,7 @@
 import { useCallback } from "react";
 import { useWeb3ModalProvider} from "@web3modal/ethers/react";
-import { getProvider } from "../utils/constants/providers";
-import { getStudentChainContract } from "../utils/constants/contracts";
+import { getProvider } from "../constants/providers";
+import { getStudentChainContract } from "../constants/contracts";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useWeb3ModalAccount } from "@web3modal/ethers/react";
-import { readOnlyProvider } from "../utils/constants/providers";
-import { getStudentChainContract } from "../utils/constants/contracts";
+import { readOnlyProvider } from "../constants/providers";
+import { getStudentChainContract } from "../constants/contracts";
 
 const useGetProposal = () => {
     const [reg, setReg] = useState({
