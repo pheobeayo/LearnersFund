@@ -1,5 +1,4 @@
-
-import Footer from "../../components/footer/Footer";
+import Footer from "../../components/Footer";
 import { Link, useParams } from "react-router-dom";
 import useGetProposals from "../../hooks/useGetProposals";
 
