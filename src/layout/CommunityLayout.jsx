@@ -1,12 +1,16 @@
 import Sidebar from "../components/Sidebar";
-import { Outlet} from "react-router-dom";
+import { Outlet, Navigate} from "react-router-dom";
 import MobileSidebar from "../components/MobileSidebar";
-
+import { useWeb3ModalAccount } from "@web3modal/ethers/react";
 
 const CommunityLayout = () => {
+  const { isConnected } = useWeb3ModalAccount();
 
+  return !isConnected ? (
+    <Navigate to={"/"} />
+  ) : (
 
-  return (
+ 
     <div>
       <div className="flex bg-white">
         <Sidebar />

@@ -22,6 +22,8 @@ const Fund = lazy(() =>
 );
 const CommunityLayout = lazy(() => import("../layout/CommunityLayout"));
 const Dashboard = lazy(() => import("../pages/dashboard/Dashboard"));
+const CommunityDetails = lazy(() => import("../pages/dashboard/CommunityDetails"));
+
 
 const router = createBrowserRouter(createRoutesFromElements(
 
@@ -39,6 +41,7 @@ const router = createBrowserRouter(createRoutesFromElements(
     </Route>
     <Route path="/dashboard" element={<CommunityLayout />} >
       <Route index element={<Dashboard />} />
+      <Route path="community-details" element={<CommunityDetails />} />
     </Route>
 
   </Route>
