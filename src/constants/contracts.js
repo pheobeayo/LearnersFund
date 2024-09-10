@@ -3,7 +3,7 @@ import Abi from "./StudentChain.json";
 
 export const getStudentChainContract = (providerOrSigner) =>
     new ethers.Contract(
-        process.env.REACT_APP_STUDENT_CHAIN_CONTRACT,
+        import.meta.env.VITE_APP_STUDENT_CHAIN_CONTRACT,
         Abi,
         providerOrSigner
     );

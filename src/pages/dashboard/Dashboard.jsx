@@ -59,7 +59,7 @@ const Dashboard = () => {
                     </div>
                   </div>
                   <div className="block mt-4">
-                    <button className="bg-[#ffffff] hover:bg-[#FF5100] text-[#331000] font-bold py-2 px-4 border border-[#FF5100] rounded w-full"
+                    <button className="bg-[#ffffff] hover:bg-[#593A9E] text-[#331000] font-bold py-2 px-4 border border-[#593A9E] rounded w-full"
                       onClick={() => handleClick(Number(item[0]))}
                     >
                       View details
