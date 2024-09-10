@@ -35,6 +35,10 @@ https://www.canva.com/design/DAGQXEqYjxs/nJaD2dJIrK4hVuUWiTyB3g/view?utm_content
 
  ## Team Information: 
 Tina Odegha - Project Manager 
+
 Babalola Yinka - Product Designer 
+
 Stephen Adekunle- Smart Contract Developer 
+
+
 Ifeoluwa Sanni- Frontend Developer
