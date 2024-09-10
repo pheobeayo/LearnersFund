@@ -1,6 +1,7 @@
 import How from "../components/How";
 import About from "../components/About";
 import Hero from "../components/Hero";
+import Proposal from "../components/Proposal";
 import Footer from "../components/Footer"
 
 
@@ -11,6 +12,7 @@ const Home = () => {
         
           <Hero />
           <How />
+          <Proposal />
           <About />
           <Footer />
         

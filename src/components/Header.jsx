@@ -43,12 +43,12 @@ const Header = () => {
           >
             About us
           </NavLink>
-           <NavLink
+           {/* <NavLink
             to="/create-community"
             className="text-[#0C0814]/90 font-serif  hover:text-[#331000] hover:font-[700] text-[18px]"
           >
             Create Community
-          </NavLink> 
+          </NavLink>  */}
         </nav>
         <w3m-button />
       </div>
@@ -86,12 +86,12 @@ const Header = () => {
           >
             About us
           </NavLink>
-          <NavLink
-            to="/create-community"
-            className="text-[#0C0814]/90  hover:text-[#331000] hover:font-[700] text-[18px]"
-          >
-            Create Community
-          </NavLink> 
+        {/* <NavLink
+          to="/create-community"
+          className="text-[#0C0814]/90  hover:text-[#331000] hover:font-[700] text-[18px]"
+        >
+          Create Community
+        </NavLink>  */}
           <div className="mt-6">
             <w3m-button />
           </div>

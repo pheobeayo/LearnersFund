@@ -1,5 +1,4 @@
-
-import useGetProposals from "../../hooks/useGetProposals";
+import useGetProposals from "../hooks/useGetProposals";
 import { useNavigate } from "react-router-dom";
 
 const Proposal = () => {

@@ -17,11 +17,11 @@ const ProjectDetails = () => {
 
   return (
     <main className="relative w-full min-h-screen">
-      <section className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <section className="w-[100vw] mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {loading ? (
           <h4>Loading...</h4>
         ) : proposal[id] ? (
-          <div className="flex flex-col md:flex-row justify-between">
+          <div className="flex flex-col md:flex-row justify-between mt-28">
             <div className="mx-6 md:w-2/3 border-2 border-[#06214A] rounded-lg p-4">
               <img
                 src={`https://green-rational-prawn-874.mypinata.cloud/ipfs/${proposal[id][7]}`}

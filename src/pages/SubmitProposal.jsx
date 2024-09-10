@@ -57,7 +57,7 @@ const SubmitProposal = () => {
   };
 
   return (
-    <main className="relative w-[100vw] h-[105vh]">
+    <main className="relative w-[100vw] h-[110vh]">
       <section className="w-screen h-full">
         <div className="grid grid-cols-2 mt-4 md:flex md:flex-row sm:flex sm:flex-row">
           <div className="bg-[#DADADA] w-1/2">
@@ -81,7 +81,7 @@ const SubmitProposal = () => {
             </div>
           </div>
           <div>
-            <form className=" mx-20 mt-24 w-3/4" onSubmit={handleSubmit}>
+            <form className=" mx-20 mt-32 w-3/4" onSubmit={handleSubmit}>
               <div className="mb-1">
                 <label
                   className="block text-[#0C0814] text-sm font-bold mb-2"
