@@ -23,13 +23,21 @@ Unlocking African student potential: By facilitating access to resources, this p
  
  ## Demo Video
 
+ 
+
  ## Figma 
 https://www.figma.com/design/Dn0SYykJgPl2BAIosNxAGO/Learnersfund?node-id=1002-1903&node-type=CANVAS&t=arVj4rRl1y0cHbz1-0
 
  ## Pitch Slides 
 https://www.canva.com/design/DAGQXEqYjxs/nJaD2dJIrK4hVuUWiTyB3g/view?utm_content=DAGQXEqYjxs&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
- ## Deployed on
+
+## Deployed on Base Sepolia
+0x7AB6d128b02d763eBd54935940c3051e9CBFf0B5
+
+
+
+ ## MVP
  https://learnersfund.vercel.app/
 
 
