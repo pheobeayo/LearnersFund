@@ -7,7 +7,7 @@
 Learnersfund is a blockchain-powered EdTech platform that serves as a one-stop solution for students seeking financial support for their educational pursuits (e.g. education-related expenses such as tuition fees, exam fees, research expenses, and other educational needs.). Beyond merely facilitating fundraising, It empowers students to achieve their academic goals while connecting with peers and supporters nationally or worldwide. With a focus on transparency and security, the platform utilizes blockchain technology for security and transparency to ensure that funds are securely held in escrow until release conditions are met.
 
 
- Learnersfund main functionality is as a Fundraising Platform where Learners such as students can create personalized fundraising proposals to seek financial aid for specific purposes such as tuition fees, exam costs, research projects, course materials, etc. Funders can browse through student proposal and contribute funds based on their interests and preferences.
+ Learnersfund main functionality is as a Fundraising Platform where Learners such as students can create personalized fundraising proposals to seek financial aid for specific purposes such as tuition fees, exam costs, research projects, course materials, etc. Funders can browse through student proposals and contribute funds based on their interests and preferences.
 
  
  
@@ -22,7 +22,7 @@ Unlocking African student potential: By facilitating access to resources, this p
  
  
  ## Demo Video
-https://youtu.be/5eDopr8pLPA
+https://youtu.be/PCQKSydVeag
  
 
  ## Figma 
