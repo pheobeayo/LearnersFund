@@ -1,0 +1,11 @@
+VITE_APP_RPC_URL='https://base-sepolia.g.alchemy.com/v2/MAPsM9-JgcU-1Bm4ObH7pvR62DFJ3d_G'
+
+VITE_APP_WSS_RPC_URL ='http://sepolia.g.alchemy.com/v2/MAPsM9-JgcU-1Bm4ObH7pvR62DFJ3d_G'
+
+VITE_APP_PROJECTID= ''
+
+VITE_APP_STUDENT_CHAIN_CONTRACT= ''
+
+VITE_APP_PINATA_API_KEY = ''
+
+VITE_APP_PINATA_SECRET_API_KEY =''
