@@ -2,10 +2,10 @@ import heroimage1 from "../assets/heroimage1.svg";
 import heroimage2 from "../assets/heroimage2.svg";
 import stud from "../assets/stud.svg";
 import { Link } from "react-router-dom";
-
+import useIsStudent from "../hooks/useIsStudent";
 
 const Hero = () => {
-  
+  const isReg = useIsStudent();
 
   return (
     <div className=" bg-[#593A9E]/5 relative py-6">
@@ -21,7 +21,7 @@ const Hero = () => {
         </h3>
         <div className="flex items-center gap-8">
           <Link
-            to="/create-proposal"
+            to= {isReg ? "/login" : "/create-proposal"}
             style={{ textDecoration: "none", color: "white" }}
           >
             <button className="bg-[#593A9E] hover:bg-[#030352] text-white font-bold py-2 px-4  rounded">

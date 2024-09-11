@@ -2,11 +2,13 @@ import { useState } from "react";
 import logo from "../assets/logo.svg";
 import { NavLink } from "react-router-dom";
 import { Sling as Hamburger } from "hamburger-react";
-
+import useIsStudent from "../hooks/useIsStudent";
 
 const Header = () => {
   const [isOpen, setOpen] = useState(false);
- 
+  const isReg = useIsStudent();
+
+
 
   return (
     <header className="py-8 bg-white bg-gradient fixed top-0 right-0 left-0 z-40 p-4 border-y">
@@ -26,7 +28,7 @@ const Header = () => {
             Fund
           </NavLink>
           <NavLink
-            to="/create-proposal"
+            to= {isReg ? "/login" : "/create-proposal"}
             className="text-[#0C0814]/90 font-serif hover:text-[#331000] hover:font-[700] mr-10 text-[18px]"
           >
             Submit Proposal
@@ -43,7 +45,7 @@ const Header = () => {
           >
             About us
           </NavLink>
-           {/* <NavLink
+          {/* <NavLink
             to="/create-community"
             className="text-[#0C0814]/90 font-serif  hover:text-[#331000] hover:font-[700] text-[18px]"
           >
@@ -69,7 +71,7 @@ const Header = () => {
             Fund
           </NavLink>
           <NavLink
-            to="/create-proposal"
+            to={isReg ? "/login" : "/create-proposal"}
             className="text-[#0C0814]/90  hover:text-[#331000] hover:font-[700] mb-6 text-[18px]"
           >
             Submit Proposal
@@ -86,7 +88,7 @@ const Header = () => {
           >
             About us
           </NavLink>
-        {/* <NavLink
+          {/* <NavLink
           to="/create-community"
           className="text-[#0C0814]/90  hover:text-[#331000] hover:font-[700] text-[18px]"
         >
