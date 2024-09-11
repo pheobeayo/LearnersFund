@@ -11,7 +11,7 @@ const FundingSuccessPage = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await fund(id, amount)
+    await fund(id, Number(amount))
 
   }
   return (

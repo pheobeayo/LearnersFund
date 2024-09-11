@@ -63,7 +63,7 @@ const SubmitProposal = () => {
           <div className="bg-[#DADADA] w-1/2">
             <div className="mt-48 mx-20">
               <h1 className="text-[#331000] font-extrabold text-4xl leading-10">
-                Let’s begin your
+                Let`&apos;`s begin your
                 <br />
                 journey
               </h1>
@@ -85,7 +85,7 @@ const SubmitProposal = () => {
               <div className="mb-1">
                 <label
                   className="block text-[#0C0814] text-sm font-bold mb-2"
-                  
+
                 >
                   Why are you seeking funding?
                 </label>
@@ -135,7 +135,7 @@ const SubmitProposal = () => {
               <div className="mb-1">
                 <label
                   className="block text-[#0C0814] text-sm font-bold mb-2"
-                  
+
                 >
                   National Identity Number (this will not be made public)
                 </label>
@@ -170,7 +170,7 @@ const SubmitProposal = () => {
               <div className="mb-2">
                 <label
                   className="block text-[#0C0814] text-sm font-bold mb-2"
-                  
+
                 >
                   Email of an authority for confirmation
                 </label>

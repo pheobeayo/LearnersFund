@@ -4,15 +4,17 @@ import stud from "../assets/stud.svg";
 import { Link } from "react-router-dom";
 import useIsStudent from "../hooks/useIsStudent";
 
+
 const Hero = () => {
   const isReg = useIsStudent();
+
 
   return (
     <div className=" bg-[#593A9E]/5 relative py-6">
       <div className="flex flex-col items-center gap-4 lg:w-[70%] md:w-[70%] w-[100%] mx-auto text-center my-12 px-4 lg:px-0 md:px-0">
         <img src={stud} alt="stud" className="w-1/4 mt-10 flex items-center" />
         <h1 className="text-[40px] md:text-[40px] font-serif font-extrabold capitalize text-center  text-[#0C0814]">
-          Fueling Education's Next Frontier
+          Fueling Education`&apos;`s Next Frontier
         </h1>
         <h3 className="text-[20px] md:text-[18px] font-serif text-center font-semibold text-[#0C0814]">
           Where Boundaries Blur and Innovations Thrive:
@@ -21,7 +23,7 @@ const Hero = () => {
         </h3>
         <div className="flex items-center gap-8">
           <Link
-            to= {isReg ? "/login" : "/create-proposal"}
+            to={isReg ? "/login" : "/create-proposal"}
             style={{ textDecoration: "none", color: "white" }}
           >
             <button className="bg-[#593A9E] hover:bg-[#030352] text-white font-bold py-2 px-4  rounded">
