@@ -4,10 +4,10 @@ import { NavLink } from "react-router-dom";
 import { Sling as Hamburger } from "hamburger-react";
 import useIsStudent from "../hooks/useIsStudent";
 
+
 const Header = () => {
   const [isOpen, setOpen] = useState(false);
   const isReg = useIsStudent();
-
 
 
   return (
@@ -28,7 +28,7 @@ const Header = () => {
             Fund
           </NavLink>
           <NavLink
-            to= {isReg ? "/login" : "/create-proposal"}
+            to={isReg ? "/login" : "/create-proposal"}
             className="text-[#0C0814]/90 font-serif hover:text-[#331000] hover:font-[700] mr-10 text-[18px]"
           >
             Submit Proposal
