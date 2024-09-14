@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="flex flex-col items-center gap-4 lg:w-[70%] md:w-[70%] w-[100%] mx-auto text-center my-12 px-4 lg:px-0 md:px-0">
         <img src={stud} alt="stud" className="w-1/4 mt-10 flex items-center" />
         <h1 className="text-[40px] md:text-[40px] font-serif font-extrabold capitalize text-center  text-[#0C0814]">
-          Fueling Education`&apos;`s Next Frontier
+          Fueling Education's Next Frontier
         </h1>
         <h3 className="text-[20px] md:text-[18px] font-serif text-center font-semibold text-[#0C0814]">
           Where Boundaries Blur and Innovations Thrive:
