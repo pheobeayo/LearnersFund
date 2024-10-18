@@ -15,12 +15,12 @@ const How = () => {
 
 
 
-                    <div className="flex flex-col lg:flex-row md:flex-row justify-between">
-                        <div className="content-card w-full md:w-[32%] mb-5 h-full rounded-t-lg px-8 mt-10 md:mx-10 shadow-md">
+                    <div className="flex flex-col lg:flex-row md:flex-row gap-2">
+                        <div className="content-card w-full md:w-[32%] mb-5 h-full border rounded-xl px-8 mt-10 shadow-lg ">
                             <div className="grid place-items-center">
                             <img src={howimage} alt="howimage" />
                             </div>
-                            <div className="w-full h-1/2">
+                            <div className="w-full h-1/2 p-[4px]">
                                 <h3 className="text-[#0C0814] text-xl font-bold leading-loose text-center ">
                                     Connect Wallet
                                 </h3>
@@ -35,11 +35,12 @@ const How = () => {
 
 
 
-                        <div className="content-card w-full md:w-[32%] mb-5 h-full rounded-t-lg px-8 mt-10 shadow-md">
+                        <div className="content-card w-full md:w-[32%] mb-5 h-full border rounded-xl px-8 mt-10 shadow-lg">
+                        
                         <div className="grid place-items-center">
                             <img src={howimage} alt="howimage" />
                             </div>
-                            <div className="w-full h-1/2 p-1">
+                            <div className="w-full h-1/2 p-[8px]">
                                 <h3 className="text-[#0C0814] text-xl font-bold leading-loose text-center">
                                     Submit a Proposal
                                 </h3>
@@ -50,11 +51,11 @@ const How = () => {
                             </div>
                         </div>
 
-                        <div className="content-card w-full md:w-[32%] mb-5 h-full rounded-t-lg px-8 mt-10 shadow-md md:mx-8">
+                        <div className="content-card w-full md:w-[32%] mb-5 h-full border rounded-xl px-8 mt-10 shadow-lg ">
                         <div className="grid place-items-center">
                             <img src={howimage} alt="howimage" />
                             </div>
-                            <div className="w-full h-1/2 p-1">
+                            <div className="w-full h-1/2">
                                 <h3 className="text-[#0C0814] text-xl font-bold leading-loose text-center">
                                     Fund
                                 </h3>
