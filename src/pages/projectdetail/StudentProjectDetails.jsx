@@ -12,25 +12,24 @@ const StudentProjectDetails = () => {
         {loading ? (
           <h4>Loading...</h4>
         ) : proposalData.length > 0 ? (
-          <div className="flex flex-col md:flex-row justify-between mt-28">
-            <div className="mx-6 md:w-2/3">
+          <div className="flex flex-col md:flex-row lg:flex-row justify-between mt-28">
+            <div className="mx-6 md:w-2/3 lg:w-2/3">
               <img src={`https://green-rational-prawn-874.mypinata.cloud/ipfs/${proposalData[6]}`} alt="laptop" className="w-full max-h-96 object-contain mb-4" />
 
-
-              <p className="text-[#0C0814] text-base font-normal mt-4">
-                Descriptions: {proposalData[2]}.
+              <p className="text-[#0C0814] text-base font-bold mt-4">
+                Descriptions: <span className="text-base font-normal">{proposalData[2]}.</span>
               </p>
               <h1 className="text-[#0C0814] text-base font-bold">
-                Referee: {proposalData[4]}
+                Referee: <span className="text-base font-normal"> {proposalData[4]}</span>
               </h1>
               <h1 className="text-[#0C0814] text-base font-bold">
-                School Name: Obafemi Awolowo University{" "}
+                School Name:<span className="text-base font-normal"> Obafemi Awolowo University{" "}</span>
               </h1>
               <h1 className="text-[#0C0814] text-base font-bold">
-                National Identity Number: 348870927432{" "}
+                National Identity Number:<span className="text-base font-normal">  348870927432{" "}</span>
               </h1>
               <h1 className="text-[#0C0814] text-base font-bold">
-                Wallet Address: {proposalData[1]}
+                Wallet Address:<span className="text-base font-normal">  {proposalData[1]}</span>
               </h1>
             </div>
             <div className="mx-6 md:w-1/3">

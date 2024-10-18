@@ -7,7 +7,7 @@ const About = () => {
         About Us
       </h2>
       <div>
-        <div className="flex justify-between flex-col lg:flex-row md:flex-row items-center px-4 lg:px-0 md:px-0">
+        <div className="flex justify-between flex-col lg:flex-row md:flex-row items-center px-8 lg:px-8 md:px-8">
           <ul className="text-[#0C0814]/70 lg:w-[50%] md:w-[50%] w-[90%] text-justify px-2">
             <li className="lg:text-[20px] md:text-[24px] text-[18px] list-disc mb-4 ">
               At LearnersFund, we believe that every student deserves the
@@ -43,11 +43,11 @@ const About = () => {
               generations to come
             </li>
           </ul>
-          <div className="lg:w-[45%] md:w-[45%] w-[100%] ">
+          <div className="lg:w-[45%] md:w-[45%] w-[100%]">
             <img
               src={aboutimage}
               alt=""
-              className="w-[90%] h-[90%] mb-4"
+              className="w-[100%] h-[100%]"
             />
           </div>
         </div>

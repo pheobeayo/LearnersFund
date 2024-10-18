@@ -21,28 +21,28 @@ const ProjectDetails = () => {
         {loading ? (
           <h4>Loading...</h4>
         ) : proposal[id] ? (
-          <div className="flex flex-col md:flex-row justify-between mt-28">
-            <div className="mx-6 md:w-2/3 border-2 border-[#06214A] rounded-lg p-4">
+          <div className="flex flex-col md:flex-row lg:flex-row justify-between mt-28">
+            <div className="mx-6 md:w-2/3 border-2 border-[#593A9E] rounded-lg p-4">
               <img
                 src={`https://green-rational-prawn-874.mypinata.cloud/ipfs/${proposal[id][7]}`}
                 alt={`Proposal visual representation: ${proposal[id][2]}`}
                 className="w-full max-h-96 object-contain mb-4"
                 onError={handleImageError}
               />
-              <p className="text-[#0C0814] text-base font-normal mt-4">
-                Descriptions: {proposal[id][2]}.
+              <p className="text-[#0C0814] text-base font-bold mt-4">
+                Descriptions: <span className="text-base font-normal"> {proposal[id][2]}.</span>
               </p>
               <h1 className="text-[#0C0814] text-base font-bold">
-                Referee: {proposal[id][4]}
+                Referee:<span className="text-base font-normal"> {proposal[id][4]}</span>
               </h1>
               <h1 className="text-[#0C0814] text-base font-bold">
-                School Name: Obafemi Awolowo University
+                School Name: <span className="text-base font-normal">Obafemi Awolowo University</span>
               </h1>
               <h1 className="text-[#0C0814] text-base font-bold">
-                National Identity Number: 348870927432
+                National Identity Number: <span className="text-base font-normal">348870927432</span>
               </h1>
               <h1 className="text-[#0C0814] text-base font-bold">
-                Wallet Address: {proposal[id][1]}
+                Wallet Address: <span className="text-base font-normal"> {proposal[id][1]}</span>
               </h1>
             </div>
             <div className="mx-6 md:w-1/3">

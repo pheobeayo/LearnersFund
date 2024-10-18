@@ -23,11 +23,11 @@ const Proposal = () => {
 
   return (
     <div className="bg-white">
-      <div className="container mx-auto px-8 sm:px-[80px] py-[100px]">
-        <h2 className="text-[#331000] text-3xl font-bold leading-10">
+      <div className="lg:w-[90%] md:w-[90%] w-[100%] mx-auto py-12 px-4 lg:px-0 md:px-0">
+        <h2 className="text-[#0C0814] px-4 lg:px-0 md:px-0 lg:text-[32px] md:text-[32px] text-[24px] font-[700] my-6 w-[90%] mx-auto font-titiliumweb items-center text-center lg:text-left md:text-left">
           Proposals available to be funded
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
+        <div className="flex lg:flex-row md:flex-row flex-col justify-between items-center flex-wrap">
           {loading ? (
             <h3>Loading...</h3>
           ) : proposal.length !== 0 ? (
@@ -37,7 +37,7 @@ const Proposal = () => {
               const fallbackImageURL = item.imageIPFSHash; // Adjust this URL
 
               return (
-                <div key={index} className="content-card mb-5 hover:skew-x-12 duration-150 ease-in-out">
+                <div key={index} className="lg:w-[32%] md:w-[32%] w-[100%] p-4 border border-[#593A9E] rounded-lg mb-4 shadow-lg">
                   <img
                     src={primaryImageURL}
                     alt="urgent"
